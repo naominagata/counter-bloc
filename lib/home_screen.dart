@@ -18,17 +18,53 @@ class _HomeScreenState extends State<HomeScreen> {
         return MyHomePage(
           title: 'Bloc',
           counter: state.counter,
+          onDecrementPressed: () {
+            context.read<CounterBloc>().add(const DecrementEvent());
+          },
           onIncrementPressed: () {
             context.read<CounterBloc>().add(const IncrementEvent());
+          },
+          onRandomPressed: () {
+            context.read<CounterBloc>().add(const RandomEvent());
+          },
+          onZeroPressed: () {
+            context.read<CounterBloc>().add(const ZeroEvent());
           },
         );
       },
       listener: (context, state) {
+        if (state is DecrementState) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Increment State'),
+              duration: Duration(seconds: 3),
+            ),
+          );
+        }
+
         if (state is IncrementState) {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(
-              content: Text('Increment'),
-              duration: Duration(microseconds: 100),
+              content: Text('Increment State'),
+              duration: Duration(seconds: 3),
+            ),
+          );
+        }
+
+        if (state is RandomState) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Random State'),
+              duration: Duration(seconds: 3),
+            ),
+          );
+        }
+
+        if (state is ZeroState) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Zero State'),
+              duration: Duration(seconds: 3),
             ),
           );
         }

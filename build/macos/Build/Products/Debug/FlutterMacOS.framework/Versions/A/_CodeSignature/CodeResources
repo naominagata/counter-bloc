@@ -19,7 +19,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h6cZ8GAYv0IUaiv1+WnRSRn9SPxqTUR9r96JyGlWxT4=
+			waeNpoKLYFCncgG3uNrGiWJTtkJsnL3b0MM5oGnyS3g=
+			</data>
+		</dict>
+		<key>Headers/FlutterAppLifecycleDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4FssdYr7eUB7e80ed4hssWDV5NGGhvOiluUG4atSbCU=
 			</data>
 		</dict>
 		<key>Headers/FlutterBinaryMessenger.h</key>
@@ -47,21 +54,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UUA81/YVZRZvoxkaY9Pf9UDdNn44IYhVTWQmEyrtRX4=
+			Z2cWf9G2hrQXXwHW+2ilnnP/58EqDYhte+THHob5IsI=
 			</data>
 		</dict>
 		<key>Headers/FlutterEngine.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AYKLQN/aa9sGu5AVPDRyoSkmjRJWOXbk3tYB88PMU14=
+			UpV3ByacFzXhRrj9/JhKX5svVE36puXdJHXYYvjF0oY=
 			</data>
 		</dict>
 		<key>Headers/FlutterMacOS.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/NO18HNvLW3lAVq6zY5wdulebohGLvJF0K8pj0f4zoA=
+			C8oz8WQD8EapvKxbBWPM2/3ol0RQMb9Z+ViIEPryoMM=
 			</data>
 		</dict>
 		<key>Headers/FlutterMacros.h</key>
@@ -82,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			En24VwKjAAbG1fJvINCeIPgiwqjksfCeOVT/eFrSAb0=
+			kr6RHMFuxYGrVTjJgiRum/Vlez9x4Vj5VnfhQzy9RCg=
 			</data>
 		</dict>
 		<key>Headers/FlutterPluginRegistrarMacOS.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RNsQy4ge9yuM8NPchNxs3CMV3fjvf+Sbe3+zJphhvB0=
+			uBywWvhl2IaS2xGRj0VTzKMq3BVMc359g/GpaVdBG70=
 			</data>
 		</dict>
 		<key>Headers/FlutterTexture.h</key>
@@ -103,7 +110,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BbrMSweTfBJF1dArT3IotK/ivjuNOTYp5Azch5m3PIQ=
+			YDnUO5/k8bNatJ+CiPO691EIN9IJA3VYonOCGYU9G/c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
